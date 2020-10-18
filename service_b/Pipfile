@@ -1,0 +1,17 @@
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+
+[packages]
+requests = { git = 'https://github.com/requests/requests.git', editable = 'true', ref = 'v2.20.1' } 
+boto3 = "<=1.16,>=1.15" 
+
+
+[requires]
+python_version = "3.8" 
+        
